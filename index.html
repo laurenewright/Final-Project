@@ -1,41 +1,132 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Lauren Wright | Designer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <a href="index.html" id="logo">
-        <h1>Lauren Wright</h1>
-        <h2>Designer</h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="wrapper">
-      <section>
-        <ul id="gallery">
-            <li><a href="img/greenrain.jpg"><img src="img/greenrain.jpg" alt="Green Rain"></a></li>
-            <li><a href="img/puddles.jpg"><img src="img/puddles.jpg" alt="Puddles"></a></li>
-            <li><a href="img/greenspots.jpg"><img src="img/greenspots.jpg" alt="Green Spots">
-        </ul>
-      </section>
-      <footer>
-            <a href= "https://twitter.com/dandyserenity"><img src="img/twitter-wrap.png" alt="twitter logo" class= "social-icon"></a>
-            <a href="https://www.facebook.com/DandySerenity/"><img src="img/facebook-wrap.png" alt="facebook logo" class= "social-icon"></a>
-            <p>&copy; 2017 Lauren Wright.</p>
-      </footer>
-    </div>
-  </body>
+    <head>
+        <title>Lauren Wright | Designer</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" id="logo">
+                <h1>Lauren Wright</h1>
+                <h2>Designer</h2>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="selected"><span class="navspan">Home</span></a></li>
+                    <li><a href="about.html"><span class="navspan">About</span></a></li>
+                    <li><a href="contact.html"><span class="navspan">Contact</span></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+            <section>
+                <ul id="gallery"> <!-- Images should be 1024x768-->
+                    <li>
+                        <a href="img/greenrain.jpg" data-lightbox="greenrain" data-title="Playing with gravity.">
+                            <figure>
+                                <img src="img/greenrain.jpg" alt="">
+                                <figcaption>Playing with gravity. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/puddles.jpg" data-lightbox="puddle" data-title="Playing with pools of watercolor.">
+                            <figure>
+                                <img src="img/puddles.jpg" alt="">
+                                <figcaption>Playing with pools of watercolor. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/greenspots.jpg"  data-lightbox="greenspots" data-title="Playing with paint splatter.">
+                            <figure>
+                                <img src="img/greenspots.jpg" alt="">
+                                <figcaption>Playing with paint splatter. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/fawn.jpg" data-lightbox="fawn" data-title="Fawn in copics markers.">
+                            <figure>
+                                <img src="img/fawn.jpg" alt="">
+                                <figcaption>A fawn in copic markers. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/bluefawn.jpg" data-lightbox="bluefawn" data-title="Blue fawn in copics markers.">
+                            <figure>
+                                <img src="img/bluefawn.jpg" alt="">
+                                <figcaption>A blue fawn in copic markers. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/jellyfishpattern.jpg" data-lightbox="jellyfishpattern" data-title="Jellyfish pattern.">
+                            <figure>
+                                <img src="img/jellyfishpattern.jpg" alt="">
+                                <figcaption>Jellyfish Pattern. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/spider.jpg" data-lightbox="spider" data-title="A personified spider in colored pencils.">
+                            <figure>
+                                <img src="img/spider.jpg" alt="">
+                                <figcaption>A personified spider in colored pencils. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/octopuspattern.jpg" data-lightbox="octopuspattern" data-title="Octopus pattern.">
+                            <figure>
+                                <img src="img/octopuspattern.jpg" alt="">
+                                <figcaption>Octopus Pattern. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/raven.jpg" data-lightbox="raven" data-title="Masked raven in colored pencils.">
+                            <figure>
+                                <img src="img/raven.jpg" alt="">
+                                <figcaption>Masked raven in colored pencils. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/gorgon.jpg" data-lightbox="gorgon" data-title="A practice in oils.">
+                            <figure>
+                                <img src="img/gorgon.jpg" alt="">
+                                <figcaption>A practice in oils. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/jellyfish.jpg" data-lightbox="jellyfish" data-title="A radical jellyfish in copic markers.">
+                            <figure>
+                                <img src="img/jellyfish.jpg" alt="">
+                                <figcaption>A radical jellyfish in copic markers. Click for full image.</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <footer>
+                <a href="http://twitter.com/dandyserenity"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
+                <a href="http://facebook.com/dandyserenity"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
+                <p>&copy; 2017 Lauren Wright.</p>
+            </footer>
+        </div>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

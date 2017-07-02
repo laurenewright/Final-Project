@@ -9,12 +9,7 @@ GENERAL
 }
 
 
-/***********************************
-Makes footer go to bottom of page
-section {
-    flex: 1;
-}
-***********************************/
+
 
 a {
     text-decoration: none; /** Removes link styling. **/
@@ -164,19 +159,6 @@ PAGE: ABOUT
     border-radius: 100%;
 }
 
-
-
-/******************************************
-PAGE: ABOUT
-******************************************/
-#formLabel {
-    font-weight: bold;
-    font-size: .5em;
-    color:#000;
-}
-
-
-
 /******************************************
 PAGE: CONTACT
 ******************************************/
@@ -234,9 +216,6 @@ COLORS
 
 /*nav bkgrd on mobile*/
  nav {
-     /*******************
-     background: #599a68;
-     *******************/
      background: #8C8BFF;
  }
 

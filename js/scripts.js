@@ -1,3 +1,3 @@
 lightbox.option({
-    'fitImagesInViewport': true;
+    "fitImagesInViewport": true;
  })

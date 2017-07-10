@@ -135,9 +135,14 @@ PAGE: PORTFOLIO
     color: #bdc3c7;
 }
 
+/** Create a thumbnail for images of different sizes. And round the corners. **/
 #gallery img {
     border-radius: 25px;
+    height:300px;
+    width:300px;
+    object-fit: cover;
 }
+
 
 #gallery figcaption {
     margin: 0;
@@ -178,23 +183,13 @@ PAGE: CONTACT
     margin: 0 0 10px;
 }
 
-.contact-info li.phone a {
-    background-image: url('../img/.png');
-}
-
 .contact-info li.linkedin a {
     background-image: url('../img/linkedin.png');
-}
-
-.contact-info li.mail a {
-    background-image: url('../img/mail.png');
 }
 
 .contact-info li.twitter a {
     background-image: url('../img/twitter.png');
 }
-
-
 
 /******************************************
 COLORS

@@ -1,16 +1,9 @@
 /* below line is write to use google font online  */
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC|Raleway);
 
-div#main{
-width: 830px;
-height: 650px;
-margin: 0px auto; 
-font-family: 'Amatic SC', cursive;
-}
 
 div#form{
 text-align:center;
-width: 300px;
 padding: 0px 50px 15px;
 margin-top:20px;
 border-radius: 6px;

@@ -11,7 +11,6 @@ This includes:
     and a submit button on the contact form, which once clicked displays an error message.
 
 To view this project simple run index.html
-This project is also live at www.dandyserenity.com.
 
 I would like to thank the people behind Code Louisville for the opportunity to learn so much and the mentors for 
 all their guidance and support.

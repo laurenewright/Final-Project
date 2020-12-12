@@ -28,7 +28,9 @@ h3 {
     margin: 0 0 1em 0;
 }
 
-
+#shopTitle {
+    text-align:center;
+}
 
 /******************************************
 HEADING

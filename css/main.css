@@ -124,6 +124,8 @@ footer {
 PAGE: PORTFOLIO
 ******************************************/
 #gallery, #galleryMain, #galleryBooks,
+#galleryMain figure,
+#galleryMain figcaption,
 #gallery figure, 
 #gallery figcaption {
     margin: 0;
